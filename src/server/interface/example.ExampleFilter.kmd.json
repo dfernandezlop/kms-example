@@ -1,0 +1,58 @@
+{
+  "remoteClasses": [
+    {
+      "name": "ExampleFilter",
+      "extends": "OpenCVFilter",
+      "doc": "element doc",
+      "constructor":
+        {
+          "doc": "Create an element",
+          "params": [
+            {
+              "name": "mediaPipeline",
+              "doc": "the parent :rom:cls:`MediaPipeline` of this :rom:cls:`PlateDetectorFilter`",
+              "type": "MediaPipeline",
+              "final": true
+            }
+          ]
+        },
+      "methods": [
+        {
+          "name": "executeMethod",
+          "doc": "method to execute",
+          "params": [
+            {
+              "name": "paramName",
+              "doc": "documentation of the param.",
+              "type": "int"
+            }
+          ]
+        }
+      ],
+      "properties":[
+        {
+          "name": "propertyName",
+          "doc": "documentation of the property",
+          "type": "float"
+        }
+      ],
+      "events": [
+        "exampleEvent"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "exampleEvent",
+      "extends": "Media",
+      "doc": "event doc",
+      "properties": [
+        {
+          "name": "eventPropertyName",
+          "doc": "event property doc",
+          "type": "String"
+        }
+      ]
+    }
+  ]
+}

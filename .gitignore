@@ -1,0 +1,5 @@
+.kdev*
+*kdev4
+.directory
+build
+obj-x86_64-linux-gnu/
